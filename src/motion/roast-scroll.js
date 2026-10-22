@@ -21,7 +21,8 @@ function tempAt(p) {
 }
 
 function stageAt(p) {
-  if (p < 0.093) return 'Charge · turning point';
+  if (p < 0.028) return 'Charge';
+  if (p < 0.093) return 'Turning point';
   if (p < 0.386) return 'Drying';
   if (p < 0.70) return 'Maillard';
   if (p < 0.955) return 'Development';
