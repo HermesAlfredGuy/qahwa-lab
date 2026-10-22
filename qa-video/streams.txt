@@ -1,0 +1,1 @@
+codec_type=video|width=780|height=1688|r_frame_rate=12/1|

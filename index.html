@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Qahwa Lab — Khawlani coffee, roasted in Al Khobar</title>
+  <meta name="description" content="Qahwa Lab is a specialty roastery in Al Khobar roasting Saudi Khawlani beans grown on the terraces of Jazan, 1,600 m above the Red Sea." />
+  <meta name="theme-color" content="#100c0a" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23100c0a'/%3E%3Cellipse cx='16' cy='16' rx='9' ry='12' fill='%23c8642a'/%3E%3Cpath d='M16 5 C13 11 13 21 16 27' stroke='%23100c0a' stroke-width='2' fill='none'/%3E%3C/svg%3E" />
+  <meta property="og:title" content="Qahwa Lab — Khawlani coffee, roasted in Al Khobar" />
+  <meta property="og:description" content="Saudi Khawlani beans from Jazan's mountains, roasted in small batches in Al Khobar." />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top"><b>QAHWA LAB</b><span class="arabic-ui">مختبر القهوة</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#mountain">The mountain</a>
+      <a href="#roast">The roast</a>
+      <a href="#lots">Lots</a>
+      <a class="nav__cta" href="#visit">Visit</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO / THE ROAST STAGE ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__stage">
+        <canvas class="hero__canvas" id="bean" aria-hidden="true"></canvas>
+
+        <div class="hero__scrim" aria-hidden="true"></div>
+
+        <div class="hero__inner wrap">
+          <div class="hero__head">
+            <div class="hero__meta">
+              <p class="eyebrow hero__eyebrow"><span>Lot 04 · Jazan · 1 600 m</span></p>
+              <p class="hero__arabic arabic" aria-hidden="true">خولاني</p>
+            </div>
+            <h1 class="hero__title"><span class="hero__title-line" data-split="chars" data-split-intro>KHAWLANI</span></h1>
+          </div>
+
+          <div class="hero__foot">
+            <div class="roast-hud" aria-live="off">
+              <div class="roast-hud__row">
+                <span class="roast-hud__label">Roast log</span>
+                <span class="roast-hud__label" data-clock>00:00</span>
+              </div>
+              <div class="roast-hud__temp"><b data-temp>24</b><i>°C</i></div>
+              <div class="roast-hud__stage" data-stage>Green bean</div>
+              <div class="roast-hud__rail"><span class="roast-hud__fill"></span></div>
+              <div class="roast-hud__meta">
+                <span>12 kg batch</span>
+                <span>Drum 64 rpm</span>
+              </div>
+            </div>
+
+            <div class="hero__copy">
+              <p class="hero__lede">Saudi Khawlani, grown on terraces above the clouds in Jazan and roasted in twelve-kilo batches in Al Khobar. <em>Scroll — the bean roasts as you go.</em></p>
+              <a class="hero__cue" href="#idea" aria-label="Scroll to continue">
+                <span class="hero__cue-line"></span>
+                <span>Scroll to roast</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" data-marquee data-speed="70" data-direction="1" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="marquee__item">Khawlani <em>خولاني</em></span><span class="marquee__item"><i></i>Jazan highlands</span>
+        <span class="marquee__item">1 600 m <em>جازان</em></span><span class="marquee__item"><i></i>Harvest 2026</span>
+        <span class="marquee__item">Al Khobar <em>الخبر</em></span><span class="marquee__item"><i></i>12 kg batches</span>
+        <span class="marquee__item">Natural process <em>طبيعي</em></span><span class="marquee__item"><i></i>Roasted to order</span>
+      </div>
+    </div>
+
+    <!-- ============ 01 THE IDEA ============ -->
+    <section class="section idea" id="idea">
+      <div class="wrap">
+        <p class="eyebrow" data-reveal>01 — The idea</p>
+        <div class="idea__grid">
+          <h2 class="display idea__head" data-split="lines">We don't invent flavour. We climb for it.</h2>
+          <div class="idea__body">
+            <p class="idea__lede" data-scrub-words>Khawlani is the oldest coffee in Arabia and the hardest to get right. It grows in the fog line of Jazan's escarpment, on terraces cut by hand, and it is dried whole on rooftops before it ever meets a drum. Our work is small on purpose: keep the mountain in the cup, and take it out of the way.</p>
+            <dl class="specs" data-reveal-group>
+              <div class="specs__row" data-reveal="up"><dt>Origin</dt><dd>Jazan, Saudi Arabia</dd></div>
+              <div class="specs__row" data-reveal="up"><dt>Altitude</dt><dd>1 600 – 1 900 m</dd></div>
+              <div class="specs__row" data-reveal="up"><dt>Varietal</dt><dd>Khawlani (Typica lineage)</dd></div>
+              <div class="specs__row" data-reveal="up"><dt>Process</dt><dd>Natural, rooftop-dried 21 days</dd></div>
+              <div class="specs__row" data-reveal="up"><dt>Roast</dt><dd>11:40 · drop at 212 °C</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 THE MOUNTAIN (light) ============ -->
+    <section class="section mountain" id="mountain">
+      <div class="wrap mountain__grid">
+        <div class="mountain__copy">
+          <p class="eyebrow" data-reveal>02 — The mountain</p>
+          <h2 class="display mountain__head" data-split="lines">Grown where the cloud sits.</h2>
+          <p class="mountain__text" data-reveal="fade">Above 1,600 metres the air is cold, the light is hard, and the cherries ripen slowly — three weeks later than the valley floor. Smallholders in the Jazan highlands pick by hand, float the fruit in spring water, then spread it on flat rooftops to dry in the sun for twenty-one days.</p>
+          <p class="mountain__text" data-reveal="fade">We buy the same lots every harvest, by name, and pay above the farm-gate price. No blending across villages: if the cup changes, the lot label changes.</p>
+          <ul class="mountain__stats">
+            <li data-reveal="up"><b data-counter="1600" data-suffix=" m">1 600 m</b><span>Terrace altitude</span></li>
+            <li data-reveal="up"><b data-counter="21" data-suffix=" days">21 days</b><span>Rooftop drying</span></li>
+            <li data-reveal="up"><b data-counter="9" data-suffix=" farms">9 farms</b><span>Long-term partners</span></li>
+          </ul>
+        </div>
+
+        <figure class="mountain__map" data-reveal="scale">
+          <div class="topo" data-topo data-parallax="0.06"></div>
+          <figcaption class="topo__cap"><span>Jazan escarpment</span><span>17°21′N 43°14′E</span></figcaption>
+        </figure>
+
+        <p class="mountain__close" data-reveal="fade">
+          <span class="mountain__close-rule"></span>
+          The same line, read twice — first the terrace, then the roast.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ 03 THE ROAST ============ -->
+    <section class="section roast" id="roast">
+      <div class="wrap">
+        <div class="roast__top">
+          <p class="eyebrow" data-reveal>03 — The roast</p>
+          <h2 class="display roast__head" data-split="lines">Eleven minutes, forty seconds.</h2>
+        </div>
+
+        <div class="roast__grid">
+          <div class="roast__steps">
+            <article class="step" data-reveal="up">
+              <span class="step__num">01</span>
+              <h3 class="step__title">Charge</h3>
+              <p>Green beans hit a drum pre-heated to 200 °C. The temperature drops to 92 °C — the turning point. From here every second is logged by hand and by probe.</p>
+            </article>
+            <article class="step" data-reveal="up">
+              <span class="step__num">02</span>
+              <h3 class="step__title">First crack</h3>
+              <p>At 8:10 the beans snap audibly as moisture escapes. We hold development short — 3 minutes 30 — so the jasmine and dried fig of the highlands survive the caramel.</p>
+            </article>
+            <article class="step" data-reveal="up">
+              <span class="step__num">03</span>
+              <h3 class="step__title">Drop &amp; rest</h3>
+              <p>Dropped at 212 °C, cooled in four minutes, rested 48 hours in one-way valves. Nothing leaves the lab before it has stopped changing.</p>
+            </article>
+          </div>
+
+          <figure class="profile" data-reveal="fade">
+            <div class="profile__head">
+              <span>Roast profile · Lot 04</span>
+              <span class="profile__legend"><i></i>Bean temp</span>
+            </div>
+            <div class="profile__plot" data-profile></div>
+            <figcaption class="profile__cap">
+              <span>Charge 200 °C</span><span>Development 3:30 · 30%</span><span>Weight loss 15.2%</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 LOTS ============ -->
+    <section class="section lots" id="lots">
+      <div class="wrap">
+        <div class="lots__top">
+          <p class="eyebrow" data-reveal>04 — On the shelf</p>
+          <h2 class="display lots__head" data-split="lines">Three lots this week.</h2>
+          <p class="lots__note" data-reveal="fade">250 g bags, ground to order or whole bean. Roast days are Tuesday and Friday; the shelf is swept the day after.</p>
+        </div>
+      </div>
+
+      <p class="lots__hint wrap" aria-hidden="true">Swipe the rail <span>→</span> lots 07 &amp; 11</p>
+
+      <div class="lots__rail" data-horizontal>
+        <div class="h-track">
+          <article class="lot h-card" data-cursor="Taste">
+            <div class="lot__disc" style="--bean:#7c4322; --glow:#c8642a"><span></span></div>
+            <header class="lot__head"><h3>Lot 04 · <em>Sahl</em></h3><span class="lot__tag">Filter</span></header>
+            <p class="lot__notes">Dried fig · jasmine · brown sugar</p>
+            <dl class="lot__meta">
+              <div><dt>Roast</dt><dd><span class="dots" data-level="2"></span>Medium</dd></div>
+              <div><dt>Altitude</dt><dd>1 600 m</dd></div>
+              <div><dt>Process</dt><dd>Natural</dd></div>
+            </dl>
+          </article>
+
+          <article class="lot h-card" data-cursor="Taste">
+            <div class="lot__disc" style="--bean:#3c2318; --glow:#8f4a22"><span></span></div>
+            <header class="lot__head"><h3>Lot 07 · <em>Fayfa</em></h3><span class="lot__tag">Espresso</span></header>
+            <p class="lot__notes">Cocoa nib · date · toasted almond</p>
+            <dl class="lot__meta">
+              <div><dt>Roast</dt><dd><span class="dots" data-level="4"></span>Medium-dark</dd></div>
+              <div><dt>Altitude</dt><dd>1 750 m</dd></div>
+              <div><dt>Process</dt><dd>Natural</dd></div>
+            </dl>
+          </article>
+
+          <article class="lot h-card" data-cursor="Taste">
+            <div class="lot__disc" style="--bean:#95a064; --glow:#9aa863"><span></span></div>
+            <header class="lot__head"><h3>Lot 11 · <em>Al Hujar</em></h3><span class="lot__tag">Experimental</span></header>
+            <p class="lot__notes">Green almond · lemon peel · honey</p>
+            <dl class="lot__meta">
+              <div><dt>Roast</dt><dd><span class="dots" data-level="1"></span>Light</dd></div>
+              <div><dt>Altitude</dt><dd>1 900 m</dd></div>
+              <div><dt>Process</dt><dd>Anaerobic 36 h</dd></div>
+            </dl>
+          </article>
+
+          <article class="lot h-card lot--text" data-cursor="Visit">
+            <p class="lot__pull">“The lab is a counter, two grinders and a drum. Come taste the lot before you buy the bag.”</p>
+            <a class="btn btn--solid" href="#visit" data-magnetic data-strength="0.25"><span class="btn__dot"></span>Plan a tasting</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 VISIT ============ -->
+    <section class="section visit" id="visit">
+      <div class="wrap visit__grid">
+        <div class="visit__copy">
+          <p class="eyebrow" data-reveal>05 — Visit</p>
+          <h2 class="display visit__head" data-split="lines">The lab is open.</h2>
+          <p class="visit__text" data-reveal="fade">Al Khobar, Eastern Province. Walk in for a cupping flight of the week's lots, or book the counter for a roast session — twelve kilos, eleven minutes forty, and you keep the bag.</p>
+          <a class="btn btn--solid visit__cta" href="mailto:hello@qahwalab.sa" data-magnetic data-strength="0.3" data-cursor="Write"><span class="btn__dot"></span>Book a roast session</a>
+        </div>
+        <dl class="visit__facts">
+          <div data-reveal="up"><dt>Address</dt><dd>Al Khobar 34413<br />Eastern Province, Saudi Arabia</dd></div>
+          <div data-reveal="up"><dt>Hours</dt><dd>Sun–Thu 07:00–22:00<br />Fri 13:00–22:00</dd></div>
+          <div data-reveal="up"><dt>Contact</dt><dd><a href="mailto:hello@qahwalab.sa">hello@qahwalab.sa</a><br /><a href="tel:+966138000000">+966 13 800 0000</a></dd></div>
+          <div data-reveal="up"><dt>Roast days</dt><dd>Tuesday &amp; Friday<br /><span class="muted">Shelf restocked the morning after</span></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <a class="brand footer__brand" href="#top"><b>QAHWA LAB</b><span class="arabic-ui">مختبر القهوة</span></a>
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h3>Explore</h3>
+            <a href="#idea">The idea</a><a href="#mountain">The mountain</a><a href="#roast">The roast</a><a href="#lots">Lots</a>
+          </div>
+          <div class="footer__col">
+            <h3>Lab</h3>
+            <a href="#visit">Visit</a><a href="mailto:hello@qahwalab.sa">Wholesale</a><a href="mailto:hello@qahwalab.sa">Roast sessions</a>
+          </div>
+          <div class="footer__col">
+            <h3>Follow</h3>
+            <a href="#lots">Instagram</a><a href="#lots">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__word" aria-hidden="true">QAHWA <span>LAB</span></p>
+      <div class="footer__base">
+        <span>© 2026 Qahwa Lab · Al Khobar</span>
+        <span>Khawlani from Jazan · Roasted in Saudi Arabia</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
