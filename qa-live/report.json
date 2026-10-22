@@ -1,0 +1,38 @@
+{
+  "kind": "web",
+  "url": "https://hermesalfredguy.github.io/qahwa-lab/",
+  "when": "2026-10-22T01:54:40.703Z",
+  "gl": "software",
+  "errors": [],
+  "failedRequests": [],
+  "notes": [],
+  "desktop": {
+    "loadMs": 3147,
+    "pageHeight": 8423,
+    "fps": 61,
+    "worstFrameMs": 17,
+    "longTasks": 2,
+    "longTaskMs": 2783,
+    "overflowX": false
+  },
+  "a11y": [],
+  "textLeaks": [],
+  "lineClash": [],
+  "clippedGlyphs": [],
+  "mobile": {
+    "loadMs": 1937,
+    "scrollWidth": 390,
+    "width": 390,
+    "offenders": [],
+    "overflowX": false,
+    "smallTapTargets": 5
+  },
+  "motionUnderReduce": {
+    "movesNormal": true,
+    "movesReduced": true,
+    "verdict": "ok"
+  },
+  "reducedMotion": {
+    "invisibleHeadingsInView": 0
+  }
+}
