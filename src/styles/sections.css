@@ -145,7 +145,7 @@
   .roast-hud { width: 320px; flex: none; }
   .hero__copy { display: flex; flex-direction: column; align-items: flex-end; gap: 1.5rem; }
   .hero__lede { max-width: 40ch; text-align: right; }
-  .hero__canvas { transform: translate(13%, 5%); }
+  .hero__canvas { transform: translate(12%, 9%); }
 }
 
 /* ============ IDEA ============ */
